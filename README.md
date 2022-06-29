@@ -1,5 +1,5 @@
 # Data-Accuracy-Model
-# the purpose the model is to find accuracy for any Classification dataset uploaded to it through a website 
+ the purpose the model is to find accuracy for any Classification dataset uploaded to it through a website 
 # HTML, CSS, JS, Python & Flask are used in this project.
 # Web pages are created using HTML, JS, CSS.
 # Python is used to preprocess the data and apply classification models and will predict the result.
