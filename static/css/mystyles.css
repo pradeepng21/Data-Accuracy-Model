@@ -1,0 +1,39 @@
+body {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:  url("images/bg.jpg");
+    
+}
+
+h1 {
+    color: rgb(26, 25, 25);
+    text-shadow: 2px 1px;
+    font-size: 50px;
+    text-align:center;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+.intend{
+   margin-top: 16%;
+}
+.center-content{
+    margin-left: 43%;
+    margin-top: 10%;
+}
+.upload{
+    margin-left: 60px;
+
+}
+input{
+    color: red;
+}

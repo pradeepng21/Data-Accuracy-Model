@@ -1,0 +1,41 @@
+body{
+    background-image:  url("images/bg5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5%;
+    
+
+}
+table {
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  th {
+    height: 70px;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+   
+  }
+
+  td{
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  td:hover{
+    background-color: white;
+    color: black;
+  }

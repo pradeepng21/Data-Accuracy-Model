@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css')}}" media="screen">
+</head>
+<body>
+    <h1>Accuracy Score For Your Classification Dataset</h1>
+<table>
+    <tr>
+        <th>Classification Model</th>
+        <th>Accuracy Score</th>
+    </tr>
+    <tr>
+      <td>Xg Boost Classifier  </td>
+      <td>{{test}}</td>
+    </tr>
+
+    <tr>
+        <td>Decision Tree Classifier  </td>
+      <td>{{test1}}</td>
+    </tr>
+
+    <tr>
+        <td>KNeighborsClassifier </td>
+      <td>{{test2}}</td>
+    </tr>
+
+    <tr>
+        <td>Naive Bayes Classifier   </td>
+      <td>{{test3}}</td>
+    </tr>
+    <tr>
+      <td>Random Forest Classifier   </td>
+      <td>{{test4}}</td>
+    </tr>
+    <tr>
+     <td>Logistic Regression   </td>
+     <td>{{test5}}</td>
+    </tr>
+    
+</table>
+      
+</body>
+</html>

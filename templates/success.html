@@ -1,0 +1,15 @@
+<html>  
+<head>  
+<title>success</title>  
+<link rel="stylesheet" href="{{ url_for('static', filename='css/success.css')}}" media="screen">
+</head>  
+<body>  
+<p class="uploaded">File Uploaded Successfully!!</p>  
+<p class="file">File Name: {{name}}</p>
+<form action = "/test" method = "get">
+<button class="btn">Show accuracy</button>
+</form>
+</body>  
+</html> 
+
+
